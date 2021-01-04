@@ -7,6 +7,11 @@ export default {
   router: {
     base: '/<personal_site>/'
   },
+  
+  // Allows page refresh to work on github pages
+  generate: {
+    fallback: "404.html"
+  },
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
