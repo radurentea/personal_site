@@ -10,7 +10,7 @@ export default {
 
   // Allows page refresh to work on github pages
   generate: {
-    fallback: "404.html"
+    fallback: '404.html'
   },
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
